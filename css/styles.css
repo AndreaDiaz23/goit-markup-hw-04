@@ -1,0 +1,524 @@
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2196F3;
+    text-decoration: none;    
+}
+
+ul {
+    list-style: none;
+}
+
+section{
+    width: 1600px;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14x;
+    font-weight: 500;
+    text-decoration: none;
+    color: #212121;
+}
+
+.menu:hover {
+    color: #2196F3;
+}
+
+.menu:focus {
+    color: #2196F3;
+}
+.box-nav-hijo2 li a:hover .icon-sobre {
+    fill: #2196F3;
+}
+
+.box-nav-hijo2 li a:hover .icon-cel {
+    fill: #2196F3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    width: 1177px;
+    overflow-x: hidden;
+}
+
+.contenedor {
+    background-image: url(../images/Imagen.jpg);
+    display: flex; 
+    width: 1600px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title {
+    font-size: 44px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    width: 696px;
+    height: 120px;
+}
+
+.buttonsoluciones {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #2196F3;
+    cursor: pointer;
+    width: 261px;
+    height: 50px;
+}
+
+.titleh3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.parrafovalores {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 24px;
+}
+
+.titleh2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+    text-align: center;
+    width: 1600px;
+}
+
+.titleh3-profes {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    text-align: center;
+}
+
+.parrafoprofes {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-pie {
+    background-color: #2F303A;
+    width: 1600px;
+    display: grid;
+    justify-content: center;
+}
+
+.contenedor-div-footer{
+    width: 1200px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textos-footer {
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.box-valores { 
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    margin-left: 215px;
+    margin-right: 215px;
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0;
+}
+
+.box-valores li {
+    width: 270px;
+}
+
+.box-valores li svg {
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    padding: 22px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.box-dedicamos {
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+
+.box-dedicamos-hijo1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.box-dedicamos-hijo2 {
+    display: flex;
+    padding: 0px;
+    gap: 30px;
+}
+
+.img-dedicamos1 {
+    background-image: url(../images/imagen1.jpg);
+    width: 370px;
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.img-dedicamos2 {
+    background-image: url(../images/imagen2.jpg);
+    width: 370px;
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img-dedicamos3 {
+    background-image: url(../images/imagen3.jpg);
+    width: 370px;
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.parrafodedicamos{ 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.box-nav { 
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.box-nav-hijo1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 50px;
+}
+
+.box-nav-hijo2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 50px;
+}
+
+.box-profes {
+    background-color: #F5F4FA;
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.box-profes-hijo1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-profes-hijo2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+.box-profes-hijo2 li {
+    background-color: white;
+    width: 270px;
+    height: 428px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.redesprofes {
+    fill: rgba(175, 177, 184, 1);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.redesprofes:hover {
+    fill: white;
+} 
+
+.redesprofeslist {
+    display: flex;
+    gap: 10px;
+}
+
+.redesprofeslist li {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    box-shadow: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.redesprofeslist li:hover {
+    background-color:#2196F3;
+}
+
+.redessociales {
+    display: flex;  
+    align-items: center;
+}
+
+.redessociales li { 
+    background-color:rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    margin: 4px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redesfooter{
+    width: 20px;
+    height: 20px;
+    fill: white;
+    cursor: pointer;
+}
+
+.redessociales :hover {
+    background-color:#2196F3;
+
+}
+
+.icon-sobre {
+    width: 16px;
+    height: 12px;
+}
+
+.icon-cel {
+    width: 10px;
+    height: 16px;
+}
+
+.clientes-regulares-section{
+    width: 1600px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+
+.clientes-regulares {
+    display: flex;
+    justify-content: center;
+}
+ 
+.clientes-regulares svg {
+    border: #AFB1B8 2px solid;
+    width: 170px;
+    height: 81px;
+    padding: 15px;
+    margin: 20px;
+    gap: 50px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.clientes-regulares svg:hover {
+    fill: #2196F3;
+    border: #2196F3 2px solid;
+}
+
+
+/* PORTAFOLIO */
+
+.servicios-completos {
+    width: 1170px;
+    height: 1360px;
+    display: grid;
+    justify-items: center;
+}
+
+.button-portafolio {
+    display: flex;
+    color: #212121;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-portafolio button {
+    background-color: #F5F4FA;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    height: 38px;
+    padding: 8px;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-portafolio button:hover {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.imagenes-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 210px;
+    margin-right: 210px;
+    gap: 25px;
+    padding: 0;
+}
+
+.imagenes-servicios li {
+    flex-basis: calc((100% - 60px) /3);
+    border: #EEEEEE 1px solid;
+    cursor: pointer;
+    align-items: center;
+}
+
+.imagenes-servicios li:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.parrafo-footer {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14x;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.imgserviciosh4 {
+    margin-left: 25px;
+}
+
+.parservicios {
+    margin-left: 25px;
+}
+
+/* ICONS */
+
+.icon-grupologo1 {
+    width: 41px;
+    height: 43,7px;
+    fill: #AFB1B8;
+}
+
+.icon-grupologo2 {
+    width: 40px;
+    height: 52px;
+    fill: #AFB1B8;
+}
+
+.icon-grupologo3 {
+    width: 43px;
+    height: 41px;
+    fill: #AFB1B8;
+}
+
+.icon-grupologo4 {
+    width: 84px;
+    height: 40px;
+    fill: #AFB1B8;
+}
+
+.icon-grupologo5 {
+    width: 62px;
+    height: 45px;
+    fill: #AFB1B8;
+}
+
+.icon-grupologo6 {
+    width: 93px;
+    height: 46px;
+    fill: #AFB1B8;
+}
+
+.box-valores svg {
+    width: 70px;
+    height: 70px;
+    fill: #212121;
+}
+
+
